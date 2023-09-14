@@ -150,6 +150,8 @@
         Responsive Styles
 -------------------------------*/
 
+/*----- Responsive for Mobile device-------*/
+
 @media screen and (max-width: 450px) {
     .banner-container,
     .nav-container,
@@ -165,6 +167,24 @@
     }
     .nav-menu>ul {
         gap: 30px;
+    }
+
+}
+
+/*----- Responsive for Tab device-------*/
+
+@media screen and (min-width: 450px) and (max-width: 992px) {
+    .banner-container,
+    .nav-container,
+    nav-menu ul {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .banner-content, .banner-photo,
+    .nav-logo, .nav-menu {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
     }
 
 }
