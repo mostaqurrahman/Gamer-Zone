@@ -173,7 +173,7 @@
 
 /*----- Responsive for Tab device-------*/
 
-@media screen and (min-width: 450px) and (max-width: 992px) {
+@media screen and (min-width: 450px) and (max-width: 768px) {
     .banner-container,
     .nav-container,
     nav-menu ul {
