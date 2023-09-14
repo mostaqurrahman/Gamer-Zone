@@ -6,7 +6,9 @@
     box-sizing: border-box;
 }
 
-/* Navbar style starts here */
+/*------------------------------------
+        Navbar style starts here
+-------------------------------------*/
 .nav-container {
     padding: 0px 160px;
     display: flex;
@@ -37,7 +39,7 @@
     color: #FF42A5;
 }
 
-
+/* ---Nav Menu--- */
 .nav-menu {
     width: 50%;
     margin: 0;
@@ -70,6 +72,78 @@
     gap: 10px;
 }
 
+/*----Navbar style Ends here----*/
+
+
+/*--------------------------------
+    Banner styles starts here
+---------------------------------*/
+.banner-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-image: url('../images/Group 14.png');
+    background-repeat: no-repeat;
+    padding: 0px 160px;
+}
+
+.banner-content {
+    width: 50%;
+}
+
+.banner-content>h6 {
+    color: #0B0223;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.banner-content>h1 {
+    font-family: Work Sans;
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-sign-in {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 48px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #FF42A5;
+}
+
+.btn-rouge {
+    padding: 20px 40px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+
+.banner-photo {
+    width: 50%;
+}
+
+.banner-photo>img {
+    width: 100%;
+}
+
+/*--- Banner styles Ends here ---*/
+
 
 
 /*-------------------------------
@@ -77,17 +151,19 @@
 -------------------------------*/
 
 @media screen and (max-width: 450px) {
-    
+
     .nav-container,
-    .nav-menu ul{
+    .nav-menu ul {
         flex-direction: column;
         padding: 30px;
     }
-    .nav-logo, .nav-menu{
+
+    .nav-logo, .nav-menu {
         width: 100%;
         justify-content: center;
     }
-    .nav-menu > ul{
+
+    .nav-menu>ul {
         gap: 30px;
     }
 }
